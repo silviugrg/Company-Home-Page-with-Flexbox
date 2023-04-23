@@ -3,6 +3,7 @@ body {
     font-family: "Sofia", sans-serif;
     margin: 0;
     padding: 0;
+    color: #272727;
 }
 
 .nav {
@@ -13,6 +14,7 @@ body {
 
     background-color: #a68060;
     margin: 0;
+    height: 125px;
 }
 
 .nav li {
@@ -20,6 +22,38 @@ body {
     list-style: none;
     font-size: 1.8em;
 }
+
+.site_Name {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(images/background_name.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, serif;
+    font-size: 2.8em;
+    -webkit-text-stroke: 2.5px 	black;
+}
+
+.about_us {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.about_us h3 {
+    font-size: 2em;
+}
+
+.about_us p {
+    font-size: 1.3em;
+}
+
 
 .product {
     height: 200px;
@@ -30,4 +64,9 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: 	#272727;
 }
