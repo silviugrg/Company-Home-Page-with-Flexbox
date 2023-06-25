@@ -44,11 +44,12 @@ body {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    
+    width: 80%;
 }
 
 .about_us h3 {
     font-size: 2em;
+    text-align: center;
 }
 
 .about_us p {
