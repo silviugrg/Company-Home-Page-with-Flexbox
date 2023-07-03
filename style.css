@@ -45,15 +45,14 @@ hr {
 /* AboutUs */
 
 .about_us {
-    text-align: center;
     width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 30px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .about_us h3 {
     font-size: 2em;
+    text-align: center;
 }
 
 .about_us p {
@@ -64,6 +63,7 @@ hr {
 /* Products */
 
 .products {
+
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
