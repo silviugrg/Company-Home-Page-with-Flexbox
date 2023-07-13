@@ -1,3 +1,5 @@
+/* General */
+
 body {
     background-color: #D1A079;
     font-family: "Sofia", sans-serif;
@@ -9,6 +11,15 @@ body {
 hr {
     width: 90%;
 }
+
+a {
+    text-decoration: none;
+    color: 	#272727;
+    
+}
+
+
+/* Header */
 
 .nav {
     position: sticky;
@@ -91,14 +102,16 @@ figcaption {
 /* Our Team */
 
 .team_members {
-    display: grid;
-    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
 
 
-
-.member {
+.member_img {
+    border: 2px solid brown;
     height: 230px;
     width: 230px;
     border-radius: 50%;
@@ -110,15 +123,8 @@ figcaption {
 }
 
 
-a {
-    text-decoration: none;
-    color: 	#272727;
-    
-}
 
-
-
-
+/* Footer */
 
 footer {
     margin: 0px;
