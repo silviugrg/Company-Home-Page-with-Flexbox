@@ -10,6 +10,8 @@ body {
 
 hr {
     width: 90%;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -103,12 +105,26 @@ figcaption {
 
 .team_members {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+
+    flex-flow: row wrap;
+
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+
+    border: 1px solid black;
 }
 
+.member {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
 
+    flex-flow: row wrap;
+}
 
 .member_img {
     border: 2px solid brown;
