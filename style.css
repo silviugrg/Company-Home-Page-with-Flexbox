@@ -120,10 +120,10 @@ figcaption {
 
 .member {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     justify-items: center;
 
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 
 .member_img {
